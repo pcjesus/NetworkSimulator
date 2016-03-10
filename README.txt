@@ -1,5 +1,4 @@
-Network Simulator
------------------
+# Network Simulator
 
 This project provide a Java implementation of a high-level network simulator
 that can be used to evaluate and compare distributed algorithms. The simulator
