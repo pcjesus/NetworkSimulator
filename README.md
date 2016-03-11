@@ -1,6 +1,6 @@
 # Network Simulator
 
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hyperium/hyper/master/LICENSE)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/pcjesus/NetworkSimulator/master/LICENSE.txt)
 
 This project provide a Java implementation of a high-level network simulator
 that can be used to evaluate and compare distributed algorithms. The simulator
@@ -93,8 +93,7 @@ shell> gnuplot -p Random-100-3_MsgSendByNormRMSE_8.gp
 The simulator implementation uses two 3rd party libraries included in the
 "libs" folder:
 * [Commons Math](https://commons.apache.org/proper/commons-math/): The Apache Commons Mathematics Library version 2.2
-  * File: commons-math-2.2.jar
-  * License: Apache 2.0
+  * File: commons-math-2.2.jar [![Apache License](http://img.shields.io/badge/license-APACHE2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 * [Jython](http://www.jython.org): Python for the Java Platform version 2.5.2
   * File: jython.jar
   * License: Apache 2.0
