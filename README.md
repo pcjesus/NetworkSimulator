@@ -1,5 +1,7 @@
 # Network Simulator
 
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hyperium/hyper/master/LICENSE)
+
 This project provide a Java implementation of a high-level network simulator
 that can be used to evaluate and compare distributed algorithms. The simulator
 uses an even-driven implementation to simulate the execution of algorithms in
