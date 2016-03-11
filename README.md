@@ -16,13 +16,13 @@ distribution, leading each process to execute at different points in time.
 The simulator includes the implementation of a few distributed aggregation 
 algorithms that can be used as examples, in particular:
 * Flow Updating [3,4]
-  * class: __msm.simulator.apps.ApplicationFlowUpdatingDynamic__
+  * class: _msm.simulator.apps.ApplicationFlowUpdatingDynamic_
 * Push-Synopses (with shares of 0.5 => Push-Sum protocol) [5]
-  * class: __msm.simulator.apps.ApplicationPushSynopse__
+  * class: _msm.simulator.apps.ApplicationPushSynopse_
 * Push-Pull Gossiping [6]
-  * class: __msm.simulator.apps.ApplicationPushPullGossiping__
+  * class: _msm.simulator.apps.ApplicationPushPullGossiping_
 * DRG (Distributed Random Grouping) [7]
-  * class: __msm.simulator.apps.ApplicationDRG__
+  * class: _msm.simulator.apps.ApplicationDRG_
 
 
 ## How-to try it
