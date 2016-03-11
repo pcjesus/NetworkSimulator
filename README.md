@@ -15,11 +15,14 @@ distribution, leading each process to execute at different points in time.
 
 The simulator includes the implementation of a few distributed aggregation 
 algorithms that can be used as examples, in particular:
-* Flow Updating [3,4] {msm.simulator.apps.ApplicationFlowUpdatingDynamic}
+* Flow Updating [3,4]
+  * class: __msm.simulator.apps.ApplicationFlowUpdatingDynamic__
 * Push-Synopses (with shares of 0.5 => Push-Sum protocol) [5]
-  {msm.simulator.apps.ApplicationPushSynopse}
-* Push-Pull Gossiping [6] {msm.simulator.apps.ApplicationPushPullGossiping}
-* DRG (Distributed Random Grouping) [7] {msm.simulator.apps.ApplicationDRG}
+  * class: __msm.simulator.apps.ApplicationPushSynopse__
+* Push-Pull Gossiping [6]
+  * class: __msm.simulator.apps.ApplicationPushPullGossiping__
+* DRG (Distributed Random Grouping) [7]
+  * class: __msm.simulator.apps.ApplicationDRG__
 
 
 ## How-to try it
@@ -31,7 +34,7 @@ shell> javac -sourcepath src -classpath classes:libs/commons-math-2.2.jar:libs/j
 ```
 
 >**Note:** you might get some warnings (use of deprecated API and unchecked
-operation), but don't worry...
+operation), but don't worry... :sweat_smile:
 
 2 - Run the network simulator (main classe: msm.simulator.NetworkSimulator)
 using one of the available example configuration files as argument, correctly
@@ -103,10 +106,10 @@ simulation result graphs and plot the network graphs:
 
 ## Compatibility
 
-This simulator was initially target to run with Java 1.5, however it is know
+This simulator was initially target to run with Java 1.5, however it is known
 to work with the latest version (Java 1.8).
 
-## References:
+## References
 
 [1] Márk Jelasity, Alberto Montresor, Gian Paolo Jesi, and Spyros Voulgaris.
     The Peersim simulator. http://peersim.sf.net (Last accessed: Aug. 2011).
