@@ -92,10 +92,12 @@ shell> gnuplot -p Random-100-3_MsgSendByNormRMSE_8.gp
 
 The simulator implementation uses two 3rd party libraries included in the
 "libs" folder:
-* [Commons Math](https://commons.apache.org/proper/commons-math/): The Apache Commons Mathematics Library version 2.2 [![Apache License](http://img.shields.io/badge/license-APACHE2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+* [Commons Math](https://commons.apache.org/proper/commons-math/): The Apache Commons Mathematics Library version 2.2
   * File: commons-math-2.2.jar
-* [Jython](http://www.jython.org): Python for the Java Platform version 2.5.2 [![Apache License](http://img.shields.io/badge/license-APACHE2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+  * [![Apache License](http://img.shields.io/badge/license-APACHE2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+* [Jython](http://www.jython.org): Python for the Java Platform version 2.5.2
   * File: jython.jar
+  * [![Apache License](http://img.shields.io/badge/license-APACHE2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 ## Recommended auxiliary software
 
